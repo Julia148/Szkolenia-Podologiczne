@@ -1,0 +1,18 @@
+body
+{
+	overflow-x: hidden;
+}
+
+.pierwszy
+{
+	border-right: none;
+}
+
+.korzysci > ol 
+{
+	list-style-type: none;
+	-webkit-columns: 1; 
+	-moz-columns: 1; 
+	columns: 1; 
+	padding-left: 0;
+}

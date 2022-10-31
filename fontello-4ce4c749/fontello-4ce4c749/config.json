@@ -1,0 +1,76 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "1189604bf305b6b03a74685ce60e6632",
+      "css": "doc-text",
+      "code": 59392,
+      "src": "entypo"
+    },
+    {
+      "uid": "51727ca007aa35ceabcaffc28934faee",
+      "css": "book-open",
+      "code": 59393,
+      "src": "entypo"
+    },
+    {
+      "uid": "610efad3150b6959e1b3fc863f39c60c",
+      "css": "gift",
+      "code": 59394,
+      "src": "typicons"
+    },
+    {
+      "uid": "20fc52f9a88bb7bda023ef209acac095",
+      "css": "graduation-cap",
+      "code": 61853,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "933f454f9d3342a055217fd695475d44",
+      "css": "vcard",
+      "code": 59395,
+      "src": "typicons"
+    },
+    {
+      "uid": "af95ef0ddda80a78828c62d386506433",
+      "css": "cubes",
+      "code": 61875,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "03cmb4p7niofd11yos3fpjjuvvpy7mji",
+      "css": "facebook-rect",
+      "code": 62209,
+      "src": "modernpics"
+    },
+    {
+      "uid": "cc20f2a7fa05a475130c406740bbbd26",
+      "css": "instagram-filled",
+      "code": 62239,
+      "src": "brandico"
+    },
+    {
+      "uid": "c91098f07ff0df45b3f8666b72b75801",
+      "css": "phone",
+      "code": 59396,
+      "src": "elusive"
+    },
+    {
+      "uid": "7cb7e246fd23672429db603c0077dc79",
+      "css": "mail-circled",
+      "code": 59397,
+      "src": "elusive"
+    },
+    {
+      "uid": "c08a1cde48d96cba21d8c05fa7d7feb1",
+      "css": "doc-text-inv",
+      "code": 61788,
+      "src": "fontawesome"
+    }
+  ]
+}
