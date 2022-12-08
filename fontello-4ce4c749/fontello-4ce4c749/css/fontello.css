@@ -54,14 +54,14 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-doc-text:before { content: '\e800';font-size: 40px; margin-bottom:20px; } /* '' */
-.icon-book-open:before { content: '\e801';font-size: 40px; margin-bottom:20px; } /* '' */
-.icon-gift:before { content: '\e802';font-size: 40px; margin-bottom:20px; } /* '' */
-.icon-vcard:before { content: '\e803';font-size: 40px; margin-bottom:20px; } /* '' */
+.icon-doc-text:before { content: '\e800';font-size: 40px; margin-bottom:20px; margin-right: 20px; float: left;} /* '' */
+.icon-book-open:before { content: '\e801';font-size: 40px; margin-bottom:20px; margin-right: 20px; float: left;} /* '' */
+.icon-gift:before { content: '\e802';font-size: 40px; margin-bottom:20px; margin-right: 20px; float: left;} /* '' */
+.icon-vcard:before { content: '\e803';font-size: 40px; margin-bottom:20px; margin-right: 20px; float: left;} /* '' */
 .icon-phone:before { content: '\e804';font-size: 28px; margin-bottom: 20px; } /* '' */
 .icon-mail-circled:before { content: '\e805'; font-size: 28px; margin-bottom: 20px;} /* '' */
 .icon-doc-text-inv:before { content: '\f15c'; font-size: 24px} /* '' */
-.icon-graduation-cap:before { content: '\f19d';font-size: 40px; margin-bottom:20px; } /* '' */
-.icon-cubes:before { content: '\f1b3';font-size: 40px; margin-bottom:20px; } /* '' */
-.icon-facebook-rect:before { content: '\f301'; font-size: 28px;} /* '' */
+.icon-graduation-cap:before { content: '\f19d';font-size: 40px; margin-bottom:20px; margin-right: 20px; float: left;} /* '' */
+.icon-cubes:before { content: '\f1b3';font-size: 40px; margin-bottom:20px; margin-right: 20px; float: left;} /* '' */
+.icon-facebook-rect:before { content: '\f301'; font-size: 28px; } /* '' */
 .icon-instagram-filled:before { content: '\f31f'; font-size: 24px;} /* '' */
