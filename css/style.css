@@ -21,6 +21,7 @@ a
 	letter-spacing: 1px;
 	z-index: 100;
 	line-height: 1;
+	text-align: left;
 }
 
 .navbar
@@ -70,26 +71,30 @@ a
 {
 	padding: 4px 4px ;
 	border-right: 1px solid #2ca7d8;
-	display: inline-block;
+	/*display: inline-block;*/
 	cursor: pointer;
 }
 
 
-#menuglowne ul > li:first-child
+/*#menuglowne ul > li:first-child
 {
 	border-left: 1px solid #2ca7d8;
-}
+}*/
 
-#menuglowne ul > li:last-child
+/*#menuglowne ul > li:last-child
 {
 	border-right: none !important;
-}
+}*/
 
 #menuglowne ul > li:hover 
 {
 	/*border-bottom: 1px solid #2ca7d8;*/
 	box-shadow: 0 6px 6px -6px #2ca7d8;
-	opacity: 0.5;
+}
+
+.dropdown-menu > li
+{
+	border: none !important;
 }
 
 .tresc

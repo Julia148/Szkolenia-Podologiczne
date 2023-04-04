@@ -16,6 +16,8 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<link rel="stylesheet" media="screen and (min-width: 0px) and (max-width: 990px)" href="css/mobile3.css"
+		type="text/css" />
 	<link rel="stylesheet" media="screen and (min-width: 0px) and (max-width: 1100px)" href="css/mobile1.css"
 		type="text/css" />
 	<link rel="stylesheet" media="screen and (min-width: 1500px)" href="css/mobile6.css" type="text/css" />
@@ -56,31 +58,48 @@
 </script>
 
 	<!-- ---------------------------------------------------------------------------NAWIGACJA-------------------------------------------------------------------------  -->
-
-	<nav class="navbar navbar-expand-lg navbar-light nawigacja">
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuglowne">
+	  <nav class="navbar navbar-expand-lg navbar-light bg-light nawigacja">
+		<div class="container-fluid">
+		  <!--<a class="navbar-brand" href="#"><img src="" alt=""
+			title=""></a>-->
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuglowne" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse justify-content-end" id="menuglowne">
+		  </button>
+		  <div class="collapse navbar-collapse justify-content-start" id="menuglowne">
 			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link" href="#o_mnie"> O mnie </a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#korzyści_dla_kursantów"> Korzyści dla kursantów </a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#pedicure_kosmetyczny"> Pedicure kosmetyczny </a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#pedicure_podologiczny"> Pedicure podologiczny </a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#kontakt"> Kontakt </a>
-				</li>
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#o_mnie">O mnie</a>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Szkolenia PHARM FOOT
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				  <li><a class="dropdown-item" href="#korzyści_dla_kursantów">Korzyści dla kursantów</a></li>
+				  <li><a class="dropdown-item" href="#pedicure_basic">Pedicure basic</a></li>
+				  <li><a class="dropdown-item" href="#pedicure_kosmetyczny">Pedicure kosmetyczny</a></li>
+				  <li><a class="dropdown-item" href="#pedicure_podologiczny">Pedicure podologiczny</a></li>
+				  <li><a class="dropdown-item" href="#rekonstrukcja_paznokci">Rekonstrukcja paznokci</a></li>
+				</ul>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Szkolenia autorskie
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				  <li><a class="dropdown-item" href="#szkolenia_autorskie">Terapie paznokci wrastających i wkręcających</a></li>
+				  <li><a class="dropdown-item" href="#szkolenia_autorskie">Terapie brodawek wirusowych</a></li>
+				  <li><a class="dropdown-item" href="#szkolenia_autorskie">Paznokcie zmienione chorobowo</a></li>
+				</ul>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#kontakt">Kontakt</a>
+			  </li>
+			  
 			</ul>
+		  </div>
 		</div>
-	</nav>
+	  </nav>
     <!-- --------------------------------------------- WSTĘP ------------------------------------------- -->
 	<main>
 	<section class="wstep">
@@ -181,8 +200,56 @@
 				</div>
 			</section>
 
-
-
+			<!-- ----------------------------------------PEDICURE BASIC------------------------------------------------------------------------------------------------------------------------------------------- -->
+			<a id="pedicure_basic"></a>
+			<header class="naglowek">Pedicure basic</header>
+			<section class="tekst">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="korzysc"> </div>
+						</div>  
+							<div class="col-md-12">
+								<div class="czas">
+									<p>Czas trwania: 8 godzin</p>
+									<p> Szkolenie grupowe cena: 990 zł</p>
+									<p>Szkolenie indywidualne cena: 1500 zł</p>
+								</div>
+							</div>
+							<div class="col-md-6 pierwszy"> 
+									<h3>Plan szkolenia - teoria</h3>		
+										<ol>
+											<li> Zasady BHP na stanowisku pedicure</li>
+											<li> Budowa aparatu paznokcia</li>
+											<li> Podstawowe choroby płytki paznokcia</li>
+											<li> Wskazania i przeciwwskazania do wykonania usługi pedicure</li>
+											<li> Produkty do zabiegów PHARM FOOT</li>
+											</ol>
+							</div>
+							<div class="col-md-6">
+								<h3>Plan szkolenia - praktyka</h3>
+								   <ol> 
+									   <li> Przygotowanie stanowiska pracy</li>
+								   	   <li> Przygotowanie klienta do zabiegu </li>
+									   <li> Wykonanie zabiegu opartego o kąpiel wodną</li>
+									   <li> Wykonanie zabiegu bez moczenia stóp</li>
+								       <li> Aplikacja lakieru</li>
+								       <li> Wykonanie pedicure hybrydowego</li>
+									   <li> Zabieg SPA & RELAX</li>
+									   <li> Zabieg GO EXFOLIATION</li>
+									</ol>						
+							</div>
+							<div class="col-md-6 pierwszy">
+								<figure>
+									<img src="img/szkolenie basic.png" alt="padicure basic"
+										title="pedicure basic">
+								</figure>
+							</div>	
+				</div>
+						
+				</div>
+				</div>
+			</section>
 			<!-- ----------------------------------------PEDICURE KOSMETYCZNY------------------------------------------------------------------------------------------------------------------------------------------- -->
 			<a id="pedicure_kosmetyczny"></a>
 			<header class="naglowek">Pedicure kosmetyczny - szkolenie podstawowe poziom I</header>
@@ -277,7 +344,7 @@
 									<li> Podstawowe choroby płytki paznokcia</li>
 									<li> Podstawowa anatomia kończyn dolnych</li>
 									<li> Wskazania i przeciwwskazania do wykonania usług pedicure</li>
-									<li> Produkty i narzędzi apotrzebne do pracy</li>
+									<li> Produkty i narzędzia potrzebne do pracy</li>
 									<li> Przygotowanie stanowiska pracy</li>
 									<li> Przygotowanie klienta do zabiegu</li>
 									<li> Wywiad z klientem</li>
@@ -306,6 +373,124 @@
 					</div>
 				</div>
 			</section>
+
+			<!-- ----------------------------------------REKONSTRUKCJA PAZNOKCI------------------------------------------------------------------------------------------------------------------------------------------- -->
+			<a id="rekonstrukcja_paznokci"></a>
+			<header class="naglowek">Rekonstrukcja paznokci</header>
+			<section class="tekst">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="korzysc"> </div>
+							</div>  
+							<div class="col-md-12">
+								<div class="czas">
+									<p>Czas trwania: 6 godzin</p>
+									<p> Szkolenie grupowe cena: 990 zł</p>
+									<p>Szkolenie indywidualne cena: 1500 zł</p>
+								</div>
+							</div>
+							   <div class="col-md-6 pierwszy">  
+
+							   <h3>Plan szkolenia - teoria</h3>
+							   	  
+								   <ol>
+									<li> Zasady BHP na stanowisku pedicure</li>
+									<li> Ciąg dekontaminacyjny – dezynfekcja i sterylizacja</li>
+									<li> Budowa skóry i jej funkcje</li>
+									<li> Budowa aparatu paznokcia</li>
+									<li> Podstawowe choroby płytki paznokcia</li>
+									<li> Podstawowa anatomia kończyn dolnych i stóp</li>
+									<li> Wskazania i przeciwwskazania do zabiegu rekonstrukcji paznokcia</li>
+									<li> Produkty i narzędzia potrzebne do do rekonstrukcji paznokcia</li>
+									<li> Przygotowanie stanowiska pracy</li>
+									<li> Przygotowanie klienta do zabiegu</li>
+									<li> Wywiad z klientem</li>
+									<li> Produkty PHARM FOOT do zabiegu rekonstrukcji</li>
+									<li> Zabieg rekonstrukcji paznokci</li>
+									<li> Zalecenia pozabiegowe</li>
+									</ol>
+								   
+								</div>
+								   <div class="col-md-6">
+									<h3>Plan szkolenia - praktyka</h3>
+									   <ol> 
+										   <li> Przygotowanie stanowiska pracy</li>
+									   	   <li> Przygotowanie klienta do zabiegu </li>
+										   <li> Rekonstrukcja paznokci – ćwiczenia na modelach</li>
+									</ol>						
+							<figure>
+								<img src="img/rekonstrukcja paznokcia.png" alt="rekonstrucja paznokci"
+									title="rekonstrukcja paznokci">
+							</figure>
+						</div>
+						
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ----------------------------------------SZKOLENIA AUTORSKIE------------------------------------------------------------------------------------------------------------------------------------------- -->
+			<a id="szkolenia_autorskie"></a>
+			<header class="naglowek">Szkolenia Autorskie</header>
+			<section class="tekst">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="korzysc" style= "text-align: left; font-weight: normal"> Szkolenia autorskie dostępne już wkrótce:
+								<ol>
+									<li>Terapie paznokci wrastających i wkręcających</li>
+									<li>Terapie brodawek wirusowych</li>
+									<li>Paznokcie zmienione chorobowo</li>
+								</ol>
+								
+							 </div>
+							</div>  
+							<!--<div class="col-md-12">
+								<div class="czas">
+									<p>Czas trwania: 6 godzin</p>
+									<p> Szkolenie grupowe cena: 990 zł</p>
+									<p>Szkolenie indywidualne cena: 1500 zł</p>
+								</div>
+							</div>
+							   <div class="col-md-6 pierwszy">  
+
+							   <h3>Plan szkolenia - teoria</h3>
+							   	  
+								   <ol>
+									<li> </li>
+									<li> </li>
+									<li> </li>
+									<li> </li>
+									<li> </li>
+									<li> </li>
+									<li> </li>
+									<li> </li>
+									<li> </li>
+									<li> </li>
+									<li> </li>
+									<li> </li>
+									<li> </li>
+									<li> </li>
+									</ol>
+								   
+								</div>
+								   <div class="col-md-6">
+									<h3>Plan szkolenia - praktyka</h3>
+									   <ol> 
+										   <li> </li>
+									   	   <li> </li>
+										   <li> </li>
+									</ol>						
+							<figure>
+								<img src="" alt=""
+									title="">
+							</figure>-->
+						</div>
+						</div>
+					</div>
+				</div>
+			</section>
 			</article>
 			<!-- -----------------------------------------------KONTAKT------------------------------------------------------------------- -->
 			<a id="kontakt"></a>
@@ -315,7 +500,7 @@
 				<div class="col-lg-12">
 					<i class="icon-phone"></i> 791 151 651 </br>
 					<i class="icon-mail-circled"></i> angelika.glebocka@pharmfoot.pl </br>
-					 <a href="https://www.instagram.com/instruktor.pharm.foot.gdansk/"
+					 <a href="https://instagram.com/angelika.glebocka.pharmfoot?igshid=YmMyMTA2M2Y="
 						target="_blanket"><i class="icon-instagram-filled"></i></a>
 					 <a href="https://www.facebook.com/Instruktor-Pharm-Foot-Angelika-G%C5%82%C4%99bocka-106938935228787"
 						target="_blanket"> <i class="icon-facebook-rect"></i> </a>
